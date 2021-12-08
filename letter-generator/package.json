@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
+    "serve": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
@@ -14,7 +15,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@vue/cli": "^4.5.15",
+    "axios": "^0.24.0",
+    "element-plus": "^1.2.0-beta.5",
+    "element-ui": "^2.15.6",
     "vue": "^2.5.2",
+    "vue-i18n": "^8.26.7",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
