@@ -4,7 +4,7 @@
       class="sidebar-el-menu"
       :default-active="onRoutes"
       :collapse="collapse"
-      background-color="#fff0f5"
+      background-color="#ffc0cb"
       text-color="#000000"
       active-text-color="#000000"
       unique-opened
@@ -62,6 +62,11 @@ export default {
           icon: "el-icon-user",
           index: "Home",
           title: "主页",
+        },
+        {
+          icon: "el-icon-chat-line-round",
+          index: "LetterGenerator",
+          title: "情书生成器",
         },
       ],
     };

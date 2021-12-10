@@ -30,7 +30,7 @@ a {
     padding-bottom: 30px;
     -webkit-transition: left .3s ease-in-out;
     transition: left .3s ease-in-out;
-    background: #f0f0f0;
+    background: #ffd0d0;
 }
 
 .content {
@@ -47,6 +47,7 @@ a {
 
 .container {
     padding: 30px;
+    height: 100%;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;

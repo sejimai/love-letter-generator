@@ -23,6 +23,13 @@ export default new Router({
             title: '主页',
           },
         },
+        {
+          path: '/LetterGenerator',
+          component: () => import(/* webpackChunkName: "dashboard" */ '../components/page/LetterGenerator.vue'),
+          meta: {
+            title: '情书生成器',
+          },
+        },
       ],
     },
     {
