@@ -4,9 +4,9 @@
       class="sidebar-el-menu"
       :default-active="onRoutes"
       :collapse="collapse"
-      background-color="#324157"
-      text-color="#bfcbd9"
-      active-text-color="#20a0ff"
+      background-color="#fff0f5"
+      text-color="#000000"
+      active-text-color="#000000"
       unique-opened
       router
     >
@@ -56,7 +56,7 @@ import bus from "./bus";
 export default {
   data() {
     return {
-      collapse: false,
+      collapse: true,
       items: [
         {
           icon: "el-icon-user",
