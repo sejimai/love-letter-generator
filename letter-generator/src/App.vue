@@ -19,6 +19,6 @@ export default {
   background-image: url(./assets/picture/background_image.jpg);
 }
 #canvas {
-  opacity: 0.65;
+  opacity: 0.7;
 }
 </style>

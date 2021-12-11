@@ -49,13 +49,4 @@ export default {
 </script>
 
 <style scoped>
-.msg-module {
-  color: chocolate;
-  font-size: 25px;
-  padding-left: 40px;
-}
-
-.common-container {
-  padding-top: 50px;
-}
 </style>
