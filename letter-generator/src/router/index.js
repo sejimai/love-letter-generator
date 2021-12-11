@@ -30,6 +30,13 @@ export default new Router({
             title: '情书生成器',
           },
         },
+        {
+          path: '/MsgBoard',
+          component: () => import(/* webpackChunkName: "dashboard" */ '../components/page/MsgBoard.vue'),
+          meta: {
+            title: '留言板',
+          },
+        },
       ],
     },
     {

@@ -13,9 +13,9 @@
       <template v-for="item in items">
         <template v-if="item.subs">
           <el-submenu :index="item.index" :key="item.index">
-            <template slot="title">
+            <template>
               <i :class="item.icon"></i>
-              <span slot="title">{{ item.title }}</span>
+              <span class="title">{{ item.title }}</span>
             </template>
             <template v-for="subItem in item.subs">
               <el-submenu
@@ -23,7 +23,7 @@
                 :index="subItem.index"
                 :key="subItem.index"
               >
-                <template slot="title">{{ subItem.title }}</template>
+                <template>{{ subItem.title }}</template>
                 <el-menu-item
                   v-for="(threeItem, i) in subItem.subs"
                   :key="i"
@@ -43,7 +43,7 @@
         <template v-else>
           <el-menu-item :index="item.index" :key="item.index">
             <i :class="item.icon"></i>
-            <span slot="title">{{ item.title }}</span>
+            <span class="title">{{ item.title }}</span>
           </el-menu-item>
         </template>
       </template>
@@ -64,10 +64,15 @@ export default {
           title: "主页",
         },
         {
-          icon: "el-icon-chat-line-round",
+          icon: "el-icon-message",
           index: "LetterGenerator",
           title: "情书生成器",
         },
+        {
+          icon: "el-icon-chat-line-round",
+          index: "MsgBoard",
+          title: "留言",
+        }
       ],
     };
   },
@@ -103,5 +108,10 @@ export default {
 }
 .sidebar > ul {
   height: 100%;
+}
+.title {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 </style>
