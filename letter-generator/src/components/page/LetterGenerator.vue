@@ -51,17 +51,18 @@ export default {
 .letter-paper {
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 1000px;
   background-image: url(../../assets/picture/letter_paper.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .letter-title {
   color: white;
   top: 40px;
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: 35%;
+  margin-right: 35%;
   position: relative;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
   background-color: skyblue;
@@ -73,6 +74,6 @@ export default {
   margin-right: 100px;
   font-size: 24px;
   font-weight: 400;
-  padding-bottom: 1200px;
+  padding-bottom: 650px;
 }
 </style>

@@ -8,9 +8,11 @@
       </el-breadcrumb>
     </div>
     <div>
-      <div class="container">
-        <div class="msg-module">
-          <a>查看留言板块</a>
+      <div class="common-container">
+        <div class="container">
+          <div class="msg-module">
+            <a>查看留言板块</a>
+          </div>
         </div>
       </div>
     </div>

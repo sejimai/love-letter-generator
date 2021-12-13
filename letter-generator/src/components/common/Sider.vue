@@ -110,8 +110,7 @@ export default {
   height: 100%;
 }
 .title {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 </style>

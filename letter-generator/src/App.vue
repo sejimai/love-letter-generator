@@ -16,9 +16,15 @@ export default {
 @import "./assets/css/main.css";
 @import "./assets/css/color-dark.css"; /*深色主题*/
 #app {
+  position: relative;
+  height: 100%;
+  width: 100%;
   background-image: url(./assets/picture/background_image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 #canvas {
-  opacity: 0.7;
+  background: rgba(255, 255, 255, 0.5);
 }
 </style>
