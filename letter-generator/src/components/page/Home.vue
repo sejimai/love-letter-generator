@@ -11,7 +11,7 @@
       <div class="common-container">
         <div class="container">
           <div class="msg-module">
-            <a>查看留言板块</a>
+            <a class="router-link" @click="goToMsgBoard()">查看留言板块</a>
           </div>
         </div>
       </div>
@@ -19,7 +19,7 @@
     <div class="common-container">
       <div class="container">
         <div class="msg-module">
-          <a>内容一</a>
+          <a >内容一</a>
         </div>
       </div>
     </div>
@@ -46,6 +46,9 @@ export default {
   },
   methods: {
     getPage() {},
+    goToMsgBoard() {
+      this.$router.push("/MsgBoard");
+    }
   },
 };
 </script>

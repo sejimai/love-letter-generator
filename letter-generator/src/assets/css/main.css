@@ -83,3 +83,7 @@ a {
     font-size: 25px;
     padding-left: 40px;
 }
+
+.router-link {
+    cursor: pointer;
+}
